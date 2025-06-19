@@ -142,12 +142,4 @@ npm run build
 - For Cloudinary integration, set your Cloudinary credentials in the `.env` file.
 - For any issues, please open an issue on the repository.
 
----
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> db6a3ff (Final commit)
->>>>>>> 1be4a6d (Final commit)

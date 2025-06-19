@@ -8,17 +8,10 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-<<<<<<< HEAD
-assets
-=======
-<<<<<<< HEAD
-assets
-=======
->>>>>>> db6a3ff (Final commit)
->>>>>>> 1be4a6d (Final commit)
 dist
 dist-ssr
 *.local
+.env
 
 # Editor directories and files
 .vscode/*

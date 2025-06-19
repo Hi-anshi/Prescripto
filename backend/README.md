@@ -197,11 +197,3 @@ See the `.env` example above for all required variables.
 
 This project is licensed under the [MIT License](LICENSE).
 
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> db6a3ff (Final commit)
->>>>>>> 1be4a6d (Final commit)
