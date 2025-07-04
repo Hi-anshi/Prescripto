@@ -1,77 +1,54 @@
-# Prescripto
+# Prescripto - Healthcare Appointment System
 
-Prescripto is an all-in-one digital platform designed to modernize and simplify prescription management for healthcare providers, pharmacists, and patients. By digitizing the entire workflow, Prescripto enhances efficiency, reduces errors, and improves accessibility to medical prescriptions and patient information.
+Prescripto is a web application designed to simplify healthcare appointments. Built with React, the front end provides a seamless user experience for patients to book appointments, view prescriptions, and manage their profiles while integrating secure payment options. By digitizing the entire workflow, Prescripto enhances efficiency, reduces errors, and improves accessibility to medical prescriptions and patient information.
 
-## Overview
+---
 
-Prescripto provides a secure and user-friendly environment where doctors can issue and manage prescriptions, pharmacists can fulfill and track medication orders, and patients can access their medical records and receive timely reminders. The platform integrates all stakeholders in the prescription process, ensuring seamless communication and compliance with healthcare standards.
+## Demo
 
-## Core Functionalities
+[https://prescripto-flax-omega.vercel.app](https://your-demo-link.com)  
 
-### User Authentication & Role Management
-- Secure registration and login for doctors, pharmacists, and patients.
-- Role-based access control to ensure data privacy and appropriate permissions.
+---
 
-### Prescription Management
-- Doctors can create, edit, and manage digital prescriptions.
-- Attach patient details, diagnosis, and medication instructions.
-- View and search prescription history.
-- Electronic signature support for prescriptions.
+## Features
 
-### Patient Management
-- Maintain comprehensive patient profiles with medical history and ongoing treatments.
-- Search, filter, and update patient records.
-- Track treatment progress and prescription adherence.
+- **User Authentication:** Secure login and registration for patients and doctors.
+- **Doctor Directory and Profiles:** Patients can browse a directory of doctors, view detailed profiles, and make informed appointment decisions.
+- **Appointment Scheduling:** Patients can book, reschedule, or cancel appointments with ease.
+- **Prescription Management:** Access and view prescriptions issued by doctors directly through the platform.
+- **Payment Integration:** Razorpay integration for secure payments related to appointment bookings or other services.
+- **User Dashboard:** A personalized area where patients can manage appointments, view medical history, and update profile information.
+- **Notifications:** Real-time notifications for appointment confirmations, reminders, and updates.
+- **Responsive Design:** A mobile-friendly design ensuring optimal performance on all devices.
 
-### Pharmacy Integration
-- Pharmacists can access and process prescriptions assigned to them.
-- Update prescription status (e.g., fulfilled, pending, rejected).
-- Manage medicine inventory and stock levels.
-- Real-time notifications for new or updated prescriptions.
-
-### Notifications & Reminders
-- Automated notifications for prescription updates and approvals.
-- Medication reminders and follow-up alerts for patients.
-- Appointment reminders for doctors and patients.
-
-### Analytics & Reporting
-- Generate detailed reports on prescriptions, patient visits, and medicine usage.
-- Visual dashboards for doctors and pharmacists to monitor trends and performance.
-- Exportable data for compliance and analysis.
-
-### Security & Compliance
-- End-to-end data encryption and secure storage of sensitive information.
-- Compliance with healthcare data regulations (e.g., HIPAA, GDPR).
-- Audit logs for tracking access and changes.
-
-## Getting Started
-
-1. **Clone the repository:**
-    ```bash
-    git clone https://github.com/yourusername/prescripto.git
-    ```
-2. **Install dependencies:**
-    ```bash
-    cd prescripto
-    npm install
-    ```
-3. **Run the application:**
-    ```bash
-    npm start
-    ```
+---
 
 ## Technologies Used
 
-- Node.js / Express.js (Backend)
-- React.js (Frontend)
-- MongoDB (Database)
-- JWT (Authentication)
-- Docker (Deployment)
+- **React:** UI development
+- **Redux:** State management
+- **React Router:** Navigation between pages
+- **Axios:** API requests for backend communication
+- **Razorpay API:** Payment processing
+- **Tailwind CSS:** Styling framework for a responsive and modern interface
+- **Toast Notifications:** For real-time user feedback
+- **Node.js & Express.js:** Backend server (not included in this repo)
+- **MongoDB:** Database (not included in this repo)
 
-## Contributing
+---
 
-Contributions are welcome! Please open issues or submit pull requests for improvements.
+## Usage
+
+- **Home Page:** View featured doctors and easily access core functionalities.
+- **Doctor Directory:** Browse and filter doctors based on specialty or location.
+- **Book Appointment:** Select a doctor and schedule an appointment.
+- **Prescriptions:** View a history of issued prescriptions and their details.
+- **User Dashboard:** Manage your profile, view upcoming appointments, and handle notifications.
+
+---
 
 ## License
 
 This project is licensed under the MIT License.
+
+---
